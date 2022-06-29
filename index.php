@@ -35,10 +35,10 @@
                 <div class="dropdown-content">
                     <a>
                         <div id="validade">VALIDADE</div><br>
-                        <div id="data">DD/MM/YYYY</div>Lotes dentro da validade
+                        <div id="data">DD/MM/YYYY</div>Lote dentro da validade
                     </a>
                     <a>
-                        <div id="dataFora">DD/MM/YYYY</div>Lotes fora de validade
+                        <div id="dataFora">DD/MM/YYYY</div>Lote fora de validade
                     </a>
                     <a>
                         <div id="dataLimite">DD/MM/YYYY</div>Validade menor que 15 dias para vencimento
@@ -46,13 +46,13 @@
                     <br><br>
                     <a>
                         <div id="status">STATUS</div><br>
-                        <div id="aprovado">APROVADO</div>Lotes liberados para utilização
+                        <div id="aprovado">APROVADO</div>Lote liberado para utilização
                     </a>
                     <a>
-                        <div id="bloqueado">BLOQUEADO</div>Lotes não estão liberados para utilização
+                        <div id="bloqueado">BLOQUEADO</div>Lote não está liberado para utilização
                     </a>
                     <a>
-                        <div id="inspecao">INSPECAO</div>Lotes estão em inspeção pela qualidade
+                        <div id="inspecao">INSPECAO</div>Lote está em inspeção pela qualidade
                     </a>
 
                 </div>

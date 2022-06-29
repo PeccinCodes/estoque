@@ -51,6 +51,11 @@ tbody {
   text-align: center;
 }
 
+#dataComAtencao{
+  background-color: #EA954F;
+  color: white;
+}
+
 #statusAprovado{
   color: #0A841F;
 }
