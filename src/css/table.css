@@ -1,0 +1,66 @@
+.tabela{
+  overflow-x: hidden;
+  width: 100%;
+  height: 450px;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  padding: 4px 7px 4px 7px;
+  width: 155px;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid black;
+}
+
+tr:nth-child(even){
+  background-color: #e9e9e9
+}
+
+th {
+  background-color: #38AB94;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+
+  padding: 7px;
+  width: 156.2px;
+}
+
+thead, tbody {
+  display: block;
+}
+
+tbody {
+  overflow-x: hidden;
+  height: 360px;
+  text-align: left;
+  font-size: 17px;
+}
+
+#dataNaValidade{
+  color: #0A841F;
+}
+
+#dataForaDaValidade{
+  background-color: #DA2A1C;
+  color: white;
+  text-align: center;
+}
+
+#statusAprovado{
+  color: #0A841F;
+}
+
+#statusBloqueado{
+  background-color: #DA2A1C;
+  color: white;
+}
+
+#statusInspecao{
+  background-color: #EA954F;
+  color: white;
+}

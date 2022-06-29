@@ -1,0 +1,39 @@
+.btnNovaPesquisaInativo{
+    background-color: #bbb5b5;
+    border: none;
+    width: 200px;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: not-allowed;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: opacity 0.9s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btnNovaPesquisa{
+    background-color: #37B34D;
+    border: none;
+    width: 200px;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: opacity 0.9s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btnNovaPesquisa:hover{
+    background-color: #5CC86F;
+}

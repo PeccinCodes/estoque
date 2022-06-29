@@ -1,0 +1,64 @@
+#bloco{
+    display: grid;
+}
+
+#bloco__input{
+    padding: 50px 0px 30px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bloco__input--produto{
+    padding: 0px 0px 0px 0px;
+}
+
+#bloco__input--label{
+    margin: 0px;
+    font-weight: bold;
+}
+
+.bloco__input--input{
+    width: 740px;
+    padding: 6px;
+    font-size: 18px;
+}
+
+.bloco__informacoes{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0px 0px 0px 0px;
+}
+
+.bloco__informacoes > div{
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.input-info{
+    width: 130px;
+    padding: 8px 0px 8px 0px;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+}    
+
+#blocos__tabela{
+    padding: 30px 0px 0px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#blocos__tabela--label{
+    font-size: 16px;
+}
+
+label{
+    font-weight: bold;
+}
