@@ -36,15 +36,10 @@ if (!empty($filtro_item)) {
         ];
     }
 
-   $retorno_produto = ['erro' => false, 'dados' => $dados];
-
+    $retorno_produto = ['erro' => false, 'dados' => $dados];
 } else {
 
     $retorno_produto = ['erro' => true, 'msgerro' => "Erro de retorno"];
 }
 
 echo json_encode($retorno_produto);
-
-//echo json_encode($array);
-
-
