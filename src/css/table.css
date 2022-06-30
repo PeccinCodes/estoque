@@ -15,7 +15,9 @@ td {
   text-align: center;
   border: 1px solid black;
 }
-
+tr{
+  background-color: white;
+}
 tr:nth-child(even){
   background-color: #e9e9e9
 }

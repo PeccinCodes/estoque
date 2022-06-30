@@ -66,7 +66,7 @@
 
                 <div id="bloco__input--produto">
                     <label for="" class="" id="bloco__input--label">PRODUTO</label><br><br>
-                    <input type="text" class="bloco__input--input" id="descricao" placeholder="Digite o código ou a descrição do produto" onkeyup="lista_produtos(this.value)" autocomplete="off" />
+                    <input type="text" class="bloco__input--input" id="descricao" placeholder="Digite o código ou a descrição do produto" onkeyup="lista_produtos(this.value)" autocomplete="off" autofocus/>
                 </div>
 
                 <div class="itensPesquisaInativo" id="div">
@@ -74,10 +74,10 @@
                 </div>
 
                 <div class="bloco__informacoes">
-                    <div>CÓDIGO<input type="text" class="input-info" id="codigo" readonly></div>
-                    <div>QT. LOTES<input type="text" class="input-info" id="lote" readonly></div>
-                    <div>ESTOQUE<input type="text" class="input-info" id="qtde" readonly></div>
-                    <div>UNIDADE<input type="text" class="input-info" id="unidade" readonly></div>
+                    <div>CÓDIGO<input type="text" class="input-info" id="codigo" disabled></div>
+                    <div>QT. LOTES<input type="text" class="input-info" id="lote" disabled></div>
+                    <div>ESTOQUE<input type="text" class="input-info" id="qtde" disabled></div>
+                    <div>UNIDADE<input type="text" class="input-info" id="unidade" disabled></div>
                 </div>
 
             </div>

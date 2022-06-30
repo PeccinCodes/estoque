@@ -1,8 +1,7 @@
 .itensPesquisaInativo {
-
-  background-color: #F1F1F1;
+  background-color: white;
   position: absolute;
-  top: 180px;
+  top: 178px;
   left: 670px;
   border-style: none solid solid solid;
   border-width: 1px;
@@ -15,19 +14,18 @@
 }
 
 .itensPesquisaAtivo {
-
-  background-color: #F1F1F1;
+  background-color: white;
   position: absolute;
-  top: 230px;
+  top: 227px;
   left: 30.2%;
   cursor: pointer;
   border-style: solid solid solid solid;
+  border: none;
   border-width: 1px;
   width: 39.2%;
-  height: 20%;
-  overflow: scroll;
+  height: 21.5%;
+  overflow: auto;
   transition: opacity 0.2s;
-  
 }
 
 #litxt {
@@ -41,7 +39,7 @@
 #litxt:hover {
   text-align: left;
   color: white;
-  background-color: #a9a9a9;
+  background-color: #38AB94;
   padding: 2px 2px 2px 2px;
   font-weight: bold;
   transition: 0.2s;
