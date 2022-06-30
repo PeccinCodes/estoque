@@ -30,8 +30,6 @@ if (!empty($filtro_item)) {
     ocibindbyname($query_full, ':cod_descricao', $pesquisa_full);
     ociexecute($query_full);
 
-    $sum = 0;
-
     while (($row_linha = oci_fetch_assoc($query_full)) != false) {
 
         $dados[] = [
@@ -43,11 +41,9 @@ if (!empty($filtro_item)) {
             'validade' => $row_linha['VALIDADE'],
             'qtde' =>  $row_linha['QTDE'],
         ];
-        
     }
 
     $retorna = ['erro' => false, 'dados' => $dados];
-
 } else {
 
     echo 'SEM RETORNO';
