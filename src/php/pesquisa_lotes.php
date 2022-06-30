@@ -21,7 +21,7 @@ if (!empty($filtro_item)) {
             VALIDADE,
             QTDE
         FROM
-            PCN_VW_ESTOQUE_FULL
+            PCN_VW_ESTOQUE_LOTE
         WHERE
             CODIGO LIKE :cod_descricao
             OR DESCRICAO LIKE :cod_descricao"
