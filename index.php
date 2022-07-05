@@ -22,7 +22,7 @@
 </head>
 
 <body id="body">
-    <div id="container" class="container">
+    <div id="idcontainer" class="container">
 
         <img class="logo" src="./src/img/logo-peccin.png" alt="logo-da-peccin">
 
@@ -117,5 +117,6 @@
 
 <script src="./src/js/lista-itens.js"></script>
 <script src="./src/js/pesquisa-lotes.js"></script>
+<script src="./src/js/validacao_navegador.js"></script>
 
 </html>
