@@ -16,7 +16,6 @@ if (!empty($filtro_item)) {
             DEPOSITO,
             STATUS,
             LOTE,
-            QT_LOTE,
             ENDERECO,
             VALIDADE,
             QTDE
@@ -36,7 +35,6 @@ if (!empty($filtro_item)) {
             'deposito' => $row_linha['DEPOSITO'],
             'status' => $row_linha['STATUS'],
             'lote' => $row_linha['LOTE'],
-            'qtlote' => $row_linha['QT_LOTE'],
             'endereco' => $row_linha['ENDERECO'],
             'validade' => $row_linha['VALIDADE'],
             'qtde' =>  $row_linha['QTDE'],
