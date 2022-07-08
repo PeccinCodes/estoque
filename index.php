@@ -66,7 +66,7 @@
 
                 <div id="bloco__input--produto">
                     <label for="" class="" id="bloco__input--label">PRODUTO</label><br><br>
-                    <input type="text" class="bloco__input--input" id="descricao" placeholder="Digite o código ou a descrição do produto" onkeyup="lista_produtos(this.value)" autocomplete="off" autofocus/>
+                    <input type="text" class="bloco__input--input" id="descricao" placeholder="Digite o código ou a descrição do produto" onkeyup="lista_produtos(this.value)" autocomplete="off" autofocus />
                 </div>
 
                 <div class="itensPesquisaInativo" id="div">
@@ -113,6 +113,11 @@
         </div>
 
     </div>
+    <footer>
+        <h4>
+            1.0.5
+        </h4>
+    </footer>
 </body>
 
 <script src="./src/js/lista-itens.js"></script>

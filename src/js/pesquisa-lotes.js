@@ -14,7 +14,6 @@ async function lista_lotes() {
     var tbody = document.createElement("tbody")
     tabela.appendChild(tbody)
 
-
     // LACO DE REPETICAO DAS LINHAS DA TABELA
     for (i = 0; i < resposta['dados'].length; i++) {
 
@@ -25,24 +24,24 @@ async function lista_lotes() {
       let splitData = validadeDoLote.split("/");
       let dataValidade = new Date(splitData[2], splitData[1] - 1, splitData[0]);
 
-      //console.log(dataValidade - new Date())
-
       tr = document.createElement("tr");
       tabela.appendChild(tr);
 
-      //
       let tdLote = document.createElement("td")
       let lote = document.createTextNode(resposta['dados'][i].lote);
       tabela.appendChild(tdLote);
       tdLote.appendChild(lote);
 
-      //
+      // CALCULA A DIFERENCA ENTRE A DATA ATUAL E A VALIDADE DO LOTE
+      // PEGA O VALOR ABSOLUTO DAS DUAS DATAS
       let diferenca = Math.abs(dataValidade.getTime() - new Date().getTime());
+      // FAZ O RETORNO DO MENOR NUMERO INTEIRO E DIVIDE PELOS MS
       var diferencaDatas = Math.ceil(diferenca / (1000 * 3600 * 24)); 
-
 
       let tdValidade = document.createElement("td");
       let validade = document.createTextNode(resposta['dados'][i].validade);
+
+      // VALIDACAO DA VALIDADE
       if (dataValidade < new Date()) {
         tdValidade.setAttribute("id","dataForaDaValidade")
 
@@ -59,7 +58,8 @@ async function lista_lotes() {
       let tdStatus = document.createElement("td");
       let status = document.createTextNode(resposta['dados'][i].status);
       tabela.appendChild(tdStatus);
-      // IF PARA MUDAR O STATUS DOS LOTES
+
+      // VALIDAÇÃO DO STATUS DOS LOTES
       if (resposta['dados'][i].status === "APROVADO") {
         tdStatus.setAttribute("id", "statusAprovado")
 
@@ -70,7 +70,6 @@ async function lista_lotes() {
         tdStatus.setAttribute("id", "statusBloqueado")
       };
       tdStatus.appendChild(status);
-      //
 
       let tdDeposito = document.createElement("td");
       let deposito = document.createTextNode(resposta['dados'][i].deposito);
