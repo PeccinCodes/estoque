@@ -23,7 +23,6 @@ async function lista_produtos(valor) {
         html += "</ul>"
 
     } else {
-
         html = "<ul>";
         html += "<dt id=litxtNe>" + "NADA ENCONTRADO, VERIFIQUE O CÓDIGO DO PRODUTO OU DESCRIÇÃO!";
         html += "</ul>";

@@ -28,7 +28,7 @@ if (!empty($filtro_item)) {
 
         $dados[] = [
             'codigo' => $row_linha['CODIGO'],
-            'descricao' => $row_linha['DESCRICAO'],
+            'descricao' => preg_replace('/(\'|")/', "", $row_linha['DESCRICAO']),
             'unidade' => $row_linha['UNIDADE'],
             'lote' => $row_linha['LOTE'],
             'qtde' => $row_linha['QTDE'],
