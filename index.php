@@ -115,7 +115,7 @@
     </div>
     <footer>
         <h4>
-            1.0.5
+            v 1.0.5
         </h4>
     </footer>
 </body>
