@@ -33,7 +33,7 @@
 
         <header class="cabecalho">
 
-            <label for="" class="cabecalho__titulo">Pesquisa Estoque</label>
+            <label for="" class="cabecalho__titulo">Consulta de Estoques</label>
 
             <div class="dropdown" style="float:right;">
                 <button class="dropbtn">MENU</button>
