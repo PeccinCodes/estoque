@@ -6,7 +6,7 @@ $filtro_item = filter_input(INPUT_GET, "cod_descricao");
 $filtro_item = strtoupper($filtro_item);
 
 if (!empty($filtro_item)) {
-    $pesquisa = "%" . $filtro_item . "%";
+    $pesquisa = $filtro_item;
     $query = oci_parse(
         $ora_conexao,
         "SELECT 
