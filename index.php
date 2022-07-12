@@ -120,7 +120,7 @@
     </div>
     <footer>
         <h4>
-            v 1.0.6
+            v 1.0.7
         </h4>
     </footer>
 </body>
