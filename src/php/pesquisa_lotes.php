@@ -9,7 +9,7 @@ $filtro_item = strtoupper($filtro_item);
 
 if (!empty($filtro_item)) {
 
-    $pesquisa_full = "%" . $filtro_item . "%";
+    $pesquisa_full = $filtro_item;
     $query_full = oci_parse(
         $ora_conexao,
         "SELECT 
