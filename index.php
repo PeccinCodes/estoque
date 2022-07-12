@@ -23,6 +23,8 @@
     <link rel="stylesheet" href="./src/css/itens_pesquisa.css">
     <link rel="stylesheet" href="./src/css/status.css">
 
+    <script src="./src/js/ordenar-tabela.js"></script>
+
     <title>PECCIN | Pesquisa Estoque</title>
 </head>
 
@@ -108,9 +110,6 @@
                             </thead>
                         </table>
 
-                    </div>
-
-                    <div>
                     </div>
 
                 </div>
